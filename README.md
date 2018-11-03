@@ -6,6 +6,7 @@
 HTML5, Sass, Gulp
 
 <h3> Usage </h3>
+
 File _grid.scss contains formula for grid.
 
 <code>
