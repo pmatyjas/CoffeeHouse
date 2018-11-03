@@ -1,0 +1,94 @@
+.page-header {}
+
+.page-header .container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-logo {
+  width: 220px;
+  height: 70px;
+  display: flex;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oleo Script', cursive;
+  color: $color-logo;
+  text-decoration: none;
+  font-size: 38px;
+}
+
+.page-nav {
+}
+
+.page-nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-nav-list li {
+  margin-left: 30px;
+}
+
+.page-nav-list a {
+  font-weight: bold;
+  text-decoration: none;
+  color: $color-coffee;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.page-nav-list a:hover {
+  background: #fff;
+}
+
+.page-nav-list li.active a {
+  background-color: $color-coffee;
+  color: #fff;
+}
+
+.page-nav-toggle {
+  width: 60px;
+  height: 40px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  cursor: pointer;
+  display: none;
+  z-index: 100;
+}
+
+.page-nav-toggle strong {
+  position: absolute;
+  left: -99999px;
+}
+
+.page-nav-toggle span {
+  height: 4px;
+  width: 15px;
+  background-color: #fff;
+  display: block;
+  margin: 1px auto;
+}
+
+@media (max-width: 980px) {
+  .page-nav-list {
+    display: none;
+  }
+  .page-header .container {
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .page-nav-toggle {
+    display: block;
+  }
+}

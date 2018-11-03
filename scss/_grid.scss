@@ -1,0 +1,31 @@
+$gap: 10px; // space between columns
+$bp: 800px;//min width
+$columns: 12; // number of columns
+
+
+.container {
+  padding-left: $gap;
+  padding-right: $gap;
+
+  .row {
+    margin-left: -$gap;
+    margin-right: -$gap;
+
+    [class*="col-"] {
+      padding-left: $gap;
+      padding-right: $gap;
+      box-sizing: border-box;
+      margin-bottom: 2*$gap;
+    }
+    @media(min-width: $bp) {
+      display: flex;
+
+      @for $i from 1 through $columns {
+
+        .col-#{$i}-#{$columns} {
+          width: (100 / $columns *$i) *1%;
+        }
+      }
+    }
+  }
+}
