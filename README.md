@@ -2,7 +2,6 @@
 <h3>General info</h3>
 <p> Responsive page built on grid. I made this page to practice grid system and RWD with Sass. </p>
 
-https://github.com/pmatyjas/CoffeeHouse.git
 
 <h3> Technologies </h3>
 HTML5, Sass, Gulp
