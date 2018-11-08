@@ -2,6 +2,8 @@
 <h3>General info</h3>
 <p> Responsive page built on grid. I made this page to practice grid system and RWD with Sass. </p>
 
+https://github.com/pmatyjas/CoffeeHouse.git
+
 <h3> Technologies </h3>
 HTML5, Sass, Gulp
 
@@ -26,4 +28,7 @@ File _grid.scss contains formula for grid.
 <h3> Additional info </h3>
 <p>Icons by Mangsaab. www.iconfinder.com </p>
 <p>Images: www.unsplash.com</p>
+
+<h3> Screenshot </h3>
+![coffee](./images/coffeehouse.jpg) 
 
